@@ -100,6 +100,8 @@ export default function App() {
                 >
                     <motion.video
                         key={`video-1-${currentVideoIndex}`}
+                        playsInline
+                        webkitPlaysInline
                         autoPlay
                         muted
                         loop
