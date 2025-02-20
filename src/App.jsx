@@ -381,6 +381,20 @@ export default function App() {
                     </motion.div>
                 )}
             </Box>
+            <Stack
+                component="footer"
+                direction="row"
+                justifyContent="center"
+                alignItems="center"
+                sx={{ bgcolor: "#006BFF", height: "100px", padding: "24px" }}
+            >
+                <Typography variant="h6" sx={{ color: "#BCF2F6" }}>
+                    Météo de la semaine à partir du nom de la ville
+                </Typography>
+                <Typography variant="h6" sx={{ color: "#BCF2F6" }}>
+                    @2025 WeatherPlan App, Claude Lk
+                </Typography>
+            </Stack>
         </Stack>
     );
 }
