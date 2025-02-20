@@ -1,8 +1,43 @@
-# React + Vite
+# Nom du Projet
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+Une brève description du projet et de son objectif principal.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Fonctionnalités réalisées
+
+-   Fonctionnalité 1
+-   Fonctionnalité 2
+-   Fonctionnalité 3
+
+## Technologies utilisées
+
+-   MUI
+-   React
+-   Vite
+-   OpenWeatherMap API
+-   Framer Motion
+
+## Installation
+
+```bash
+npm install
+npm run dev
+```
+
+## Utilisation
+
+Entrez la ville de votre choix et cliquez sur le bouton "Get Weather" pour obtenir les informations météorologiques.
+
+## État d'avancement
+
+Description de l'état actuel du projet et des fonctionnalités complétées
+
+## Prochaines étapes
+
+-   Liste des fonctionnalités à venir
+-   Améliorations prévues
+
+## Auteurs
+
+LUSAMOTE KIMFUTA Claudia
