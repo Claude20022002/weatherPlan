@@ -17,6 +17,7 @@ Une brève description du projet et de son objectif principal.
 -   Vite
 -   OpenWeatherMap API
 -   Framer Motion
+-   Axios
 
 ## Installation
 
