@@ -3,7 +3,7 @@
     "private": true,
     "version": "0.0.0",
     "type": "module",
-    "homepage": "https://claudelk.github.io/weatherPlan",
+    "homepage": "https://claude20022002.github.io/weatherPlan",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
