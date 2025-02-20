@@ -33,6 +33,9 @@ export default function App() {
     const [city, setCity] = useState("");
     const [weather, setWeather] = useState(null);
 
+    // Détection simple pour mobile (vous pouvez l'ajuster selon vos besoins)
+    const isMobile = typeof window !== "undefined" && window.innerWidth < 768;
+
     const handleSearch = async () => {
         if (!city.trim()) {
             alert(
@@ -73,6 +76,12 @@ export default function App() {
     // Fonction utilitaire pour convertir la température de Kelvin à Celsius
     const kelvinToCelsius = (kelvin) => Math.round(kelvin - 273.15);
 
+    // Définit les animations différemment selon le type d'appareil
+    const videoInitial = isMobile ? { opacity: 0 } : { opacity: 0, scale: 1.2 };
+    const videoAnimate = isMobile
+        ? { opacity: isFirstVideo ? 1 : 0 }
+        : { opacity: isFirstVideo ? 1 : 0, scale: 1 };
+
     return (
         <Stack
             sx={{
@@ -105,8 +114,8 @@ export default function App() {
                         autoPlay
                         muted
                         loop
-                        initial={{ opacity: 0, scale: 1.2 }}
-                        animate={{ opacity: isFirstVideo ? 1 : 0, scale: 1 }}
+                        initial={videoInitial}
+                        animate={videoAnimate}
                         transition={{ duration: 1.5, ease: "easeOut" }}
                         style={{
                             width: "100%",
@@ -124,11 +133,17 @@ export default function App() {
                     </motion.video>
                     <motion.video
                         key={`video-2-${nextVideoIndex}`}
+                        playsInline
+                        webkitPlaysInline
                         autoPlay
                         muted
                         loop
-                        initial={{ opacity: 0, scale: 1.2 }}
-                        animate={{ opacity: isFirstVideo ? 0 : 1, scale: 1 }}
+                        initial={videoInitial}
+                        animate={
+                            isMobile
+                                ? { opacity: isFirstVideo ? 0 : 1 }
+                                : { opacity: isFirstVideo ? 0 : 1, scale: 1 }
+                        }
                         transition={{ duration: 1.5, ease: "easeOut" }}
                         style={{
                             width: "100%",
