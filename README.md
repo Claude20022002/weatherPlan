@@ -2,7 +2,7 @@
 
 ## Description
 
-WeatherPlan est un petit site pour pouvoir obtenir la météo à l'aide du nom d'une ville réalisé avec React JS(Vite).
+WeatherPlan est un petit site, responsive pour pouvoir obtenir la météo à l'aide du nom d'une ville réalisé avec React JS(Vite).
 
 ## Fonctionnalités réalisées
 
