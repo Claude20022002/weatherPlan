@@ -2,13 +2,12 @@
 
 ## Description
 
-Une brève description du projet et de son objectif principal.
+WeatherPlan est un petit site pour pouvoir obtenir la météo à l'aide du nom d'une ville réalisé avec React JS(Vite).
 
 ## Fonctionnalités réalisées
 
--   Fonctionnalité 1
--   Fonctionnalité 2
--   Fonctionnalité 3
+- Donner la météo d'une ville soit : la température ressenti, l'humidité, la vitesse du vent et la pression.
+- Donner une bref description du temps et la température mesurer
 
 ## Technologies utilisées
 
@@ -32,12 +31,13 @@ Entrez la ville de votre choix et cliquez sur le bouton "Get Weather" pour obten
 
 ## État d'avancement
 
-Description de l'état actuel du projet et des fonctionnalités complétées
+Pour le moment, une seule fonctionnalité est implémenté mais je compte faire de ce projet une app de météo complèt avec d'autre fonctionnalité...
 
 ## Prochaines étapes
 
--   Liste des fonctionnalités à venir
--   Améliorations prévues
+-   Météo avec le nom du pays
+-   Petit rubrique info pour être au courant des dernières nouvelles météorologique dans le monde
+-   Modifications de l'intereface utilisateur
 
 ## Auteurs
 
